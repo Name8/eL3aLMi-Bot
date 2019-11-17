@@ -1,12 +1,13 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "#";
+var prefix = "-";
 client.on('message', message => {
-    if (message.content == "#سرعه") {
+    if (message.content == "-سرعه") {
         var x = ["DreamKing",
 "DeathGames",
 "زيرو كنج",
 "أرض الأحلام",
+"نحن نحب العالمي",
 "ألبرازيل",
 "العراق",
 "ألمملكة ألعربية ألسعودية",
@@ -17,6 +18,7 @@ client.on('message', message => {
 "سهله مو صعبه",
 "طبق رطب مرق بقر",
 "متجر",
+"نحن نعشق سيستم",
 "شجرة الأوغيري",
 "عش العصفور",
 "هلا بلخميس",
@@ -27,6 +29,7 @@ client.on('message', message => {
 "عادل امام",
 "عمرو ذياب",
 "عمان",
+"تاج راسي سيستم",
 "مسقط",
 "بغداد عاصمة العراق",
 "Playing Minecraft",
@@ -35,56 +38,19 @@ client.on('message', message => {
 "YouTube",
 "Infinity",
 "احبك دريم",
+"العالمي",
 "Don't Let Me Down",
 "Space",
 "Instgram",
 "Google",
 "Viber",
 ];
-        var x2 = ['DreamKing',
-        "DeathGames",
-        "زيرو كنج",
-        "أرض الأحلام",
-		"ألبرازيل",
-		"العراق",
-		"ألمملكة ألعربية ألسعودية",
-		"القسطنطينية",
-		"النهاية",
-		"امازون",
-		"جافاسكربت",
-		"سهله مو صعبه",
-		"طبق رطب مرق بقر",
-		"متجر",
-		"شجرة الأوغيري",
-		"عش العصفور",
-		"هلا بلخميس",
-		"الحوت الأزرق",
-        "بلاد الرافدين",
-        "كانيكي",
-        "توكا",
-        "عادل امام",
-        "عمرو ذياب",
-        "عمان",
-        "مسقط",
-        "بغداد عاصمة العراق",
-        "Playing Minecraft",
-        "Music",
-        "FaceBooK",
-        "YouTube",
-        "Infinity",
-        "احبك دريم",
-        "Don't Let Me Down",
-		"Space",
-		"Instgram",
-		"Google",
-		"Viber",
+	    
+	    
+	    
+	    
+
 		
-        
-        
-        
-        
-        ];
-        
         var x3 = Math.floor(Math.random()*x.length)
         message.channel.send(` اول شخص يكتب :  __**${x[x3]}**__
 لديك 15 ثانية للاجابة`).then(msg1=> {
@@ -106,7 +72,7 @@ client.on('message', message => {
 })
 
 client.on('message', puz => {
-    if (puz.content == "#لغز") {
+    if (puz.content == "-لغز") {
         var x = ["ما هي حاسة الشم عند الثعبان ؟",
 "ما هو الشي الذي يكسو الناس و هو عار بدون ملابس ؟",
 "ما هو الشي الذي لا يجري و لا يمشي ؟",
@@ -157,7 +123,7 @@ client.on('message', puz => {
 })
 
 client.on('message', fkk => {
-    if (fkk.content == "#فكك") {
+    if (fkk.content == "-فكك") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
 "فيلا",
